@@ -5,15 +5,14 @@
 #define _(cadena) gettext(cadena)
 
 int main(int argc, const char *argv[]){
-	bind_textdomain_codeset ("Intel-BUAP", "UTF-8");
+	bind_textdomain_codeset ("codigo", "UTF-8");
 	setlocale(LC_ALL, "");
-	bindtextdomain("Intel-BUAP", "Gettext");
-	textdomain("Intel-BUAP");
+	bindtextdomain("codigo", "idioma");
+	textdomain("codigo");
 	char  cadena[] = "Hola mundo piñata!";
-	char nombre[] = _("Hola alumnos intel buap");
 	
 
-	printf(_("Hola mundo\n"));
+	printf(_("Hola alumnos Intel-BUAP\n"));
 	
 	return 0;
 }
