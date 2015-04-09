@@ -10,10 +10,8 @@ int main(int argc, const char *argv[]){
 	bindtextdomain("codigo", "idioma");
 	textdomain("codigo");
 	char  cadena[] = "Hola mundo piñata!";
-	
 
 	printf(_("Hola alumnos Intel-BUAP\n"));
-	
 	return 0;
 }
 

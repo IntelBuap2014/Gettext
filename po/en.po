@@ -1,0 +1,23 @@
+# English translations for codigo package.
+# Copyright (C) 2015 Yenisei
+# This file is distributed under the same license as the codigo package.
+# yramirez <yeniseirape@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: codigo 0.1\n"
+"Report-Msgid-Bugs-To: yeniseirape@gmail.com\n"
+"POT-Creation-Date: 2015-04-09 17:05-0500\n"
+"PO-Revision-Date: 2015-04-09 17:18-0500\n"
+"Last-Translator: yramirez <yeniseirape@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: codigo.c:15
+#, c-format
+msgid "Hola alumnos Intel-BUAP\n"
+msgstr "Hello classmates Intel-BUAP\n"
